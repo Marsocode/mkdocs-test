@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# Product Science Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+[Product Science](https://www.productscience.ai/) increases product metrics for mobile applications and helps apps work faster by providing insights into key performance issues that impact user experience.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[Product Science](https://www.productscience.ai/) analyzes the code and actual runtime data to pinpoint performance issues. Our AI enables us to do it more efficiently by providing unique insights for data visualizations to help mobile developers to identify the problem right away.

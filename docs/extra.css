@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Open+Sans&display=swap);
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+}
+
+.rst-content .toctree-wrapper>p.caption, h1, h2, h3, h4, h5, h6, legend,.rst-content kbd, .rst-content pre, .rst-content samp {
+  font-family: 'Manrope', sans-serif;
+}
+
+.rst-content p {
+  color: #4a4a4a;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
+  letter-spacing: -.01em;
+}
+
+.rst-content hr {
+  margin-top: 60px;
+  margin-bottom: 56px;
+  width: 100%;
+}
+
+.rst-content a {
+  color: #495bfb;
+  text-decoration: none;
+  white-space: pre-wrap;
+}
+
+.rst-content a:visited {
+  color: #495bfb;
+  text-decoration: none;
+}
+
+.rst-content code {
+  color: #398299;
+  background: #F7F7F7;
+}
+
+div[class*=language-] {
+  margin: 20px 0;
+}
+
+.rst-content pre {
+  margin: 0;
+}
+
+.rst-content pre code {
+  background: #F7F7F7;
+  border-radius: 8px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+}
+
+.filename {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-left: 1px solid #e1e4e5;
+  border-right: 1px solid #e1e4e5;
+  border-top: 1px solid #e1e4e5;
+  margin: 0;
+  background-color: #F7F7F7;
+  display: flow-root;
+  font-size: .85em;
+  font-weight: 700;
+  padding: 0.5em 1em;
+  position: relative;
+}
+
+.filename + pre code {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+img {
+  border-radius: 8px;
+  /* margin: 20px auto; */
+}
+
+p img {
+  margin: 20px auto;
+}
+
+/* .rst-content .section ol li img {
+  margin: 20px 0!important;
+} */
+
+/* .rst-content table.docutils thead, .rst-content table.field-list thead, .wy-table thead {
+  white-space: pre-wrap;
+} */
+
+.rst-content table {
+  border: none;
+}
+
+.rst-content table.docutils td {
+  padding: 8px;
+}
+
+.wy-table-responsive table td {
+  white-space: pre-wrap;
+}
+
+.rst-content table.docutils th {
+  padding: 8px;
+}
+
+th {
+  opacity: 60%;
+}
+
+/* Tab style starts here */
+/* .tabbed-set {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em 0;
+  border-radius: 0.1rem;
+}
+
+.tabbed-set > input {
+  display: none;
+}
+
+.tabbed-set label {
+  width: auto;
+  padding: 0.9375em 1.25em 0.78125em;
+  font-weight: 700;
+  font-size: 0.84em;
+  white-space: nowrap;
+  border-bottom: 0.15rem solid transparent;
+  border-top-left-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+  cursor: pointer;
+  transition: background-color 250ms, color 250ms;
+}
+
+.tabbed-set .tabbed-content {
+  width: 100%;
+  display: none;
+  box-shadow: 0 -.05rem #ddd;
+}
+
+.tabbed-set input {
+  position: absolute;
+  opacity: 0;
+}
+
+.tabbed-set input:checked:nth-child(n+1) + label {
+  color: red;
+  border-color: red;
+}
+
+@media screen {
+  .tabbed-set input:nth-child(n+1):checked + label + .tabbed-content {
+    order: 99;
+    display: block;
+  }
+}
+
+@media print {
+  .tabbed-content {
+    display: contents;
+  }
+} */

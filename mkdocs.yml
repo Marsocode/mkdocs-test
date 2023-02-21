@@ -1,4 +1,50 @@
-site_name: My Docs
+site_name: PS Documentation
+site_description: 'Test documentation'
+copyright: Copyright Product Science Inc. All rights reserved.
 
-# theme:
-#   name: 'rtd-dropdown'
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Essentials Steps: essentials-steps.md
+  - Working with PS tool: working-with-ps-tool.md
+  - Dictionary: dictionary.md
+
+extra_css: [extra.css]
+
+theme:
+  name: readthedocs
+  max_depth: 5
+  # name: 'rtd-dropdown'
+  # collapse_by_default: false
+  highlightjs: true
+  # hljs_languages:
+  #   - yaml
+  #   - bash
+  #   - groovy
+  #   - js
+  #   - kotlin
+
+
+markdown_extensions:
+  - toc:
+      permalink: #
+  - footnotes
+  - admonition
+  - attr_list
+  - pymdownx.highlight:
+      use_pygments: true
+      pygments_style: 'default'
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.critic
+  - pymdownx.keys
+  - pymdownx.superfences:
+      preserve_tabs: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - minify:
+      minify_html: false
+  - search
